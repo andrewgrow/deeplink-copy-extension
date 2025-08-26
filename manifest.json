@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Deeplink Copy Extension",
-  "version": "0.2.0",
-  "description": "Make .popover-hoverable elements as clickable and copy values of popover-text/uib-popover.",
+  "version": "0.0.1",
+  "description": "Turns .popover-hoverable elements into clickable links and copies the value of the popover-text or uib-popover attribute.",
   "permissions": ["scripting", "storage", "activeTab", "tabs", "clipboardWrite"],
   "optional_host_permissions": ["<all_urls>"],
   "background": { "service_worker": "background.js" },
